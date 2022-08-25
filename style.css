@@ -58,9 +58,22 @@ body{
   text-align: center;
   object-fit: cover;
   border-radius: 10px;
+}
 
-
-
+#downarrow {
+  color: red;
+  align-items: flex-end;
+}
+#info {
+  right: -15px;
+  position: relative;
+  top: -20px;
+}
+#notification {
+  filter: grayscale(100%);
+}
+#search {
+  filter: grayscale(100%);
 }
 /* .home img {
   width: 100%; 
@@ -120,7 +133,11 @@ body{
 }
 h2 {
   color: white;
-  padding-left: 30px; 
+  padding-left: 100px; 
+}
+.continue h2 {
+  position: relative;
+  top: 20px;
 }
 #root p{
   color: white;
@@ -131,7 +148,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* align-items: center; */
 }
 .show-box{
     position: relative;
@@ -173,7 +189,7 @@ h2 {
 }
 
 
-
+/* carousel */
 .carousel-container {
   width: 1280px;
   margin: auto;
@@ -204,7 +220,6 @@ h2 {
 .nav button {
   width: 60px;
   height: 250px;
-  /* border-radius: 50%; */
   border: 1px solid #aaa;
   position: absolute;
   top: 50%;
@@ -239,12 +254,13 @@ h2 {
   height: 5px;
 }
 
-/* zmiana ustawienia filmow */
+/* settings of display image movie */
 .card .img img {
   flex-shrink: 0;
-    min-width: 100%;
-    min-height: 80%;
-    height: 250px;
+  min-width: 100%;
+  min-height: 80%;
+  height: 250px;
+
 }
 
 
@@ -304,7 +320,6 @@ h2 {
    background-image: url("http://store-images.s-microsoft.com/image/apps.46851.9007199266246365.1f6d0339-ecce-4fe5-840a-652cd84111ad.ddef6be7-6304-41c0-a347-1d571b66dfb2");
    background-repeat: no-repeat;
    background-size: cover;
-   /* background-attachment: fixed; */
    background-position: center; 
    z-index: 2;
 
