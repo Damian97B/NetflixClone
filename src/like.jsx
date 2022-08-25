@@ -35,9 +35,9 @@ let showsApp = {
 
         let allBoxesHtml = "";
         // console.log(show);
-        // for(let i = 0; i < 1; i++){
 
 
+        // display only one movie
         // imgSrc = showData[0]["im:image"][2].label;
         
         // let summary = showData[0].title.label;
@@ -126,7 +126,7 @@ let showsApp = {
         }
         // console.log(localStorage.getItem("checkbox13"));
 
-        document.getElementById("test").innerHTML = allBoxesHtml;
+        document.getElementById("show-favorite-section").innerHTML = allBoxesHtml;
         window.addEventListener('change', save);
         
 
